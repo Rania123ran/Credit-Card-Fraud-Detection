@@ -10,8 +10,7 @@ Detect fraudulent card transactions with **Python / scikit-learn** using two mod
   <img src="https://img.shields.io/badge/Model-Random%20Forest-228B22" />
   <img src="https://img.shields.io/badge/Data-Imbalanced-critical" />
   <img src="https://img.shields.io/badge/Notebook-Jupyter-F37626?logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
-  <img src="https://img.shields.io/badge/License-MIT-black" />
+
 </p>
 
 ---
@@ -27,8 +26,7 @@ Detect fraudulent card transactions with **Python / scikit-learn** using two mod
 - [Typical Findings](#typical-findings)
 - [Limitations & Next Steps](#limitations--next-steps)
 - [Repo Structure](#repo-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
