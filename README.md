@@ -13,22 +13,7 @@ Detect fraudulent card transactions with **Python / scikit-learn** using two mod
 
 </p>
 
----
 
-## Table of Contents
-- [Goals](#goals)
-- [Dataset](#dataset)
-- [Pipeline](#pipeline)
-- [Quickstart](#quickstart)
-- [Training & Metrics](#training--metrics)
-- [Threshold Tuning](#threshold-tuning)
-- [Feature Importance (RF)](#feature-importance-rf)
-- [Typical Findings](#typical-findings)
-- [Limitations & Next Steps](#limitations--next-steps)
-- [Repo Structure](#repo-structure)
-
-
----
 
 ## Goals
 - Explore fraud patterns (atypical amounts, new merchants, online purchases).
@@ -40,6 +25,7 @@ Detect fraudulent card transactions with **Python / scikit-learn** using two mod
 
 ## Dataset
 LINK : https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud
+
 Main columns:
 - `distance_from_home` — distance from cardholder’s home to the transaction  
 - `distance_from_last_transaction` — distance since previous transaction  
