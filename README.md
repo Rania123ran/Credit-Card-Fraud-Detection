@@ -36,22 +36,6 @@ Main columns:
 
 > Features are pre-engineered per customer; the dataset is anonymized (no customer ID).
 
----
-
-## Pipeline
-1. **EDA**: distributions, correlations, online vs offline fraud rate, sanity checks (NaNs/duplicates).  
-2. **Preprocessing**  
-   - `X = data.drop('fraud')`, `y = data['fraud']`.  
-   - Scale **only continuous numeric features** for Logistic Regression (`StandardScaler`).  
-   - No scaling needed for Random Forest.  
-3. **Split**: `train_test_split(..., stratify=y, test_size=0.2, random_state=42)`.  
-4. **Modeling**  
-   - Logistic Regression (`max_iter=1000`) in a pipeline with scaling.  
-   - Random Forest (e.g., `n_estimators=300`, `class_weight='balanced_subsample'`).  
-5. **Evaluation**: `precision`, `recall`, `f1`, `accuracy`, **ROC AUC**; choose a probability threshold.  
-6. **Demo Prediction**: sample a transaction from the **test set**, output predicted label + probability.
-
----
 
 ## Quickstart
 
