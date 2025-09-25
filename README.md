@@ -21,8 +21,6 @@ Detect fraudulent card transactions with **Python / scikit-learn** using two mod
 - Produce probabilities and pick a practical decision **threshold**.
 - Keep the pipeline simple, reproducible, and easy to adapt.
 
----
-
 ## Dataset
 LINK : https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud
 
